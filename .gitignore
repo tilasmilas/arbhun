@@ -1,0 +1,14 @@
+# virtualenvs
+venv/
+env/
+
+# dotenv / secrets
+.env
+
+# bytecode
+__pycache__/
+*.py[cod]
+
+# Editor / OS cruft
+.DS_Store
+*.swp

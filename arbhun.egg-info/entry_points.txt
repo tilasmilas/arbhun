@@ -1,0 +1,2 @@
+[console_scripts]
+arbhun = arb_hun.cli:main

@@ -1,0 +1,11 @@
+httpx[http2]
+pydantic
+beautifulsoup4
+rapidfuzz
+python-dotenv
+cryptography
+click
+PySide6
+pandas>=1.0
+python-dateutil
+structlog

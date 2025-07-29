@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arbhun"
+version = "0.2.0"
+description = "Async arbitrage w/ privacy-first automation"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "httpx[http2]", "pydantic", "beautifulsoup4", "rapidfuzz",
+  "python-dotenv", "cryptography", "click", "PySide6",
+  "pandas>=1.0", "python-dateutil", "structlog"
+]
+[project.scripts]
+arbhun = "arb_hun.cli:main"
